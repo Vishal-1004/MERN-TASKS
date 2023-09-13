@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Task 2</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container {
+        border: 1px solid black;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-div">
+      <div class="container">
+        <p>List can be nested (list inside list):</p>
+        <ul>
+          <li>Cofee</li>
+          <li>
+            Tea
+
+            <ul>
+              <li>Black Tea</li>
+              <li>Green Tea</li>
+            </ul>
+          </li>
+          <li>Milk</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

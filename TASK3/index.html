@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Task - 3</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .containerCenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container {
+        border: 1px solid black;
+        background-color: rgb(204, 203, 203);
+        display: inline-block;
+        height: fit-content;
+        width: 80%;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="containerCenter">
+      <div class="container">
+        <p>Click any of the following links</p>
+        <div class="allLinks">
+          <a href="reach.html" target="_blank">Open in New</a> |
+          <a href="reach.html" target="_self">Open in Self</a> |
+          <a href="reach.html" target="_parent">Open in Parent</a> |
+          <a href="reach.html" target="_top">Open in Body</a> |
+          <a href="mailto:email@example.com">Send Email</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
